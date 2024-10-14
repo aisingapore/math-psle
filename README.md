@@ -17,3 +17,6 @@ To Improve:
 * MathPix API is convenient and powerful for OCR but expensive for scale
     * i.e. 2B llama tokens requires ~ 3.3M pages of OCR, which will cost ~$80K with current pricing
     * looking into self-hosting [Marker](https://github.com/VikParuchuri/marker)
+* Use "official" eval prompts:
+    * for visual math QA involving diagrams, see [MathVista](https://arxiv.org/abs/2310.02255) or whatever is SOTA
+    * for word problems only, see [MATH](https://arxiv.org/abs/2103.03874) or whatever is SOTA
